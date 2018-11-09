@@ -145,7 +145,7 @@ p {
 
 
 /* ================================
-    2. Master Color Setting
+    2. Master Color Setting #eab34c
 ================================= */
 
 
@@ -156,7 +156,7 @@ p {
 .g-button,
 .progress-bar,
 .box-heading:after {
-    background-color: #eab34c;
+    background-color: #ccaa4e;
 }
 
 .about,
@@ -177,7 +177,7 @@ p {
 .blog-bg .name-color,
 .social i,
 .g-button-2 {
-    color: #eab34c;
+    color: #ccaa4e;
 }
 
 .service-right .service-detail h3,
@@ -236,7 +236,7 @@ p {
 }
 
 .navbar li a.active {
-    color: #eab34c !important;
+    color: #ccaa4e !important;
 }
 
 .nav-background {
@@ -305,7 +305,7 @@ p {
 }
 
 .jumbotron a:hover i {
-    color: #eab34c;
+    color: #ccaa4e;
 }
 
 .g-button {
@@ -328,7 +328,7 @@ p {
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 2px;
-    border-color: #eab34c;
+    border-color: #ccaa4e;
 }
 
 .g-button-outline:hover {
@@ -347,7 +347,7 @@ p {
     height: 100%;
     top: 25px;
     left: 3px;
-    border: solid 7px #eab34c;
+    border: solid 7px #ccaa4e;
 }
 
 .about .about-photo {
@@ -438,7 +438,7 @@ p {
 
 .service-left .list-icon li i {
     margin-right: 10px;
-    color: #eab34c;
+    color: #ccaa4e;
     font-size: 20px;
 }
 
@@ -593,7 +593,7 @@ p {
 }
 
 .portfolio .g-button-filter.mixitup-control-active {
-    background: #eab34c;
+    background: #ccaa4e;
 }
 
 .portfolio .mix {
@@ -630,15 +630,15 @@ p {
     display: inline-block;
     line-height: 50px;
     width: 50px;
-    color: #eab34c;
+    color: #ccaa4e;
     border: 1px solid;
     border-radius: 50%;
     margin: 0 3px;
 }
 
 .portfolio .mix .mix-hover .icons a:hover {
-    background: #eab34c;
-    border-color: #eab34c;
+    background: #ccaa4e;
+    border-color: #ccaa4e;
     color: #fff;
 }
 
@@ -668,7 +668,7 @@ p {
 .g-button-2 {
     padding: 8px 20px;
     font-size: 14px;
-    border-color: #eab34c;
+    border-color: #ccaa4e;
 }
 
 .g-button-2 i {
@@ -698,7 +698,7 @@ p {
 
 .contact-inpt {
     background-color: rgba(255, 255, 255, 0) !important;
-    border: 1px solid #eab34c;
+    border: 1px solid #ccaa4e;
     font-size: 16px;
     letter-spacing: 2px;
     font-weight: 600;
@@ -706,7 +706,7 @@ p {
 }
 
 .contact-inpt:focus {
-    border: 1px solid #eab34c;
+    border: 1px solid #ccaa4e;
     box-shadow: 0 0 0 0 #000000;
 }
 
@@ -717,7 +717,7 @@ p {
 }
 
 .contact-2 i {
-    border: dashed 1px #eab34c;
+    border: dashed 1px #ccaa4e;
     padding: 10px;
     font-size: 40px;
     color: #fff;
@@ -725,7 +725,7 @@ p {
 }
 
 .contact-2 .media:hover i {
-    background-color: #eab34c;
+    background-color: #ccaa4e;
     color: #ffffff;
 }
 
@@ -767,12 +767,12 @@ p {
     font-size: 30px;
     transition: all ease 0.5s;
     margin-bottom: 20px;
-    border: dashed 1px #eab34c;
+    border: dashed 1px #ccaa4e;
     box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .50);
 }
 
 .social a:hover i {
     color: #fff;
     background-color: #031219;
-    border: dashed 1px #eab34c;
+    border: dashed 1px #ccaa4e;
 }
