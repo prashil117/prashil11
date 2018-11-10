@@ -767,12 +767,12 @@ p {
     font-size: 30px;
     transition: all ease 0.5s;
     margin-bottom: 20px;
-    border: dashed 1px #ccaa4e;
+    border: 0px #ccaa4e;
     box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .50);
 }
 
 .social a:hover i {
     color: #fff;
     background-color: #031219;
-    border: dashed 1px #ccaa4e;
+    border: dashed 1px;
 }
