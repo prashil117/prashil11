@@ -1,5 +1,6 @@
 <!-- The content below is only a placeholder and can be replaced. -->
 
+
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top" id="main-nav">
         <div class="container">
@@ -31,16 +32,7 @@
                     </li>
                     <!--
             <li class="nav-item">
-
-
-
-
                 <a class="nav-link" scrollTo href="#blog"><b>Blog</b></a>
-
-
-
-
-
             </li>
           -->
                     <li class="nav-item">
@@ -65,11 +57,11 @@
               <b class="name-1">&nbsp; Freelancer</b>
             </span>
                     </p>
-                    <button type="button" class="btn btn-dark btn-lg g-button mr-3 mt-35">
+                    <button scrollTo href="#contact" type="button" class="btn btn-dark btn-lg g-button mr-3 mt-35 ">
             Hire Me
           </button>
                     <button type="button" class="btn btn-outline-dark btn-lg g-button-outline mt-35">
-            Resume
+                      <a style="color:#ffffff " href="./../assets/images/Prasil_Parmar.pdf" download> Resume</a>
           </button>
                     <ul class="list-inline">
                         <li class="list-inline-item">
@@ -80,10 +72,7 @@
                             <a href="https://twitter.com/ParmarPrasil"><i class="la la-twitter"></i
               ></a>
                         </li>
-                        <li class="list-inline-item">
-                            <a href="https://in.pinterest.com/jollyprashil/?eq=pras&etslf=5550"><i class="la la-pinterest"></i
-              ></a>
-                        </li>
+
                         <!--
               <li class="list-inline-item"><a href="#"><i class="la la-dribbble"></i></a></li>
             -->
@@ -109,10 +98,13 @@
                 <h2 class="box-heading">About</h2>
                 <h4>Hi There! I'm Prashil Parmar</h4>
                 <p class="text-left mb-20">
-                    Lorem ipsum dolor sit amet, contetur adiicing elit. Deseunt sequi expedita quod voluptates voluptate aliquid moleas,ullam recusandae illo odit?
+                    I'm the Front-End Developer and 
+I have serious passion for UI effects, animations and creating intiative, dynamic user experiences. 
                 </p>
                 <p class="text-left">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt sequi expeta quod voluptates voluptate aliquid molestias magnam, a ullam reandae illo odit nobis nostrum vero rendis non.
+                    I provide product design services, working with startups and established companies to improve performance and ease-of-use of their products.
+
+My services include product analysis, through to full product design
                 </p>
                 <div class="text-left mt-4 about-skil">
                     <h3>Skill</h3>
@@ -191,7 +183,7 @@
                                 <i class="la la-picture-o"></i>
                                 <h3>Mobile Application Development</h3>
                                 <p>
-                                    Mobile application improvement arrangements which streamline your business and increment client base on Android, iPhone stages.
+                                    Mobile application improvement your business and increment client base on Android, iPhone stages.
                                 </p>
                             </div>
                         </div>
@@ -501,34 +493,10 @@
 </section>
 <!--
   Blog
-
-
-
-
   <section id="blog " class="blog ">
-
-
-
-
-
       <div class="container ">
-
-
-
-
-
           <div class="row ">
-
-
-
-
-
               <div class="col-md-8 offset-md-2 text-center mb-15 ">
-
-
-
-
-
                   <h2 class="box-heading ">Latest News</h2>
 
 
@@ -721,7 +689,7 @@
         </div>
         <div class="row ">
             <div class="col-md-6 bg-black ">
-                <form action="contact_form.php " method="POST ">
+                <form (ngSubmit)="onSubmit()">
                     <div class="form-row ">
                         <div class="form-group col-sm-6 ">
                             <input type="text " name="name " id="name " class="form-control border-top-0 border-right-0 border-left-0 rounded-0 contact-inpt " placeholder="Your Name " />
@@ -811,48 +779,12 @@
                     <a href="https://www.instagram.com/prashil_parmar/ "><i class="fa fa-instagram "></i
           ></a>
                 </div>
-                <h4>PRASHIL PARMAR</h4>
+                <!--   <h4>PRASHIL PARMAR</h4>-->
                 <p>&copy; 2018 Made with <i class="la la-heart "></i> by me.</p>
             </div>
         </div>
     </div>
 </footer>
 
-<!--
-  <div class="alert text-center cookiealert" role="alert">
-
-
-
-
-
-      <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website.
-
-
-
-
-
-
-
-
-      <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
-
-
-
-
-
-          I agree
-
-
-
-
-
-      </button>
-
-
-
-
-
-  </div>
--->
 
 <router-outlet></router-outlet>
