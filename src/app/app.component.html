@@ -98,13 +98,10 @@
                 <h2 class="box-heading">About</h2>
                 <h4>Hi There! I'm Prashil Parmar</h4>
                 <p class="text-left mb-20">
-                    I'm the Front-End Developer and 
-I have serious passion for UI effects, animations and creating intiative, dynamic user experiences. 
+                    I'm the Front-End Developer and I have serious passion for UI effects, animations and creating intiative, dynamic user experiences.
                 </p>
                 <p class="text-left">
-                    I provide product design services, working with startups and established companies to improve performance and ease-of-use of their products.
-
-My services include product analysis, through to full product design
+                    I provide product design services, working with startups and established companies to improve performance and ease-of-use of their products. My services include product analysis, through to full product design
                 </p>
                 <div class="text-left mt-4 about-skil">
                     <h3>Skill</h3>
@@ -411,8 +408,8 @@ My services include product analysis, through to full product design
                     <img src="./../assets/images/studvis.png" alt=" " class="img-fluid " />
                     <div class="mix-hover ">
                         <div class="icons ">
-                            <a href="# "><i class="la la-chain "></i></a>
-                            <a href="./../assets/images/angular.png " class="zoom " data-rel="prettyPhoto[portfolio] "><i class="la la-search "></i
+                            <a href="http://www.studvis.com/" target="blank"><i class="la la-chain "></i></a>
+                            <a href="./../assets/images/studvis.png " class="zoom " data-rel="prettyPhoto[portfolio] "><i class="la la-search "></i
               ></a>
                         </div>
                     </div>
@@ -498,185 +495,35 @@ My services include product analysis, through to full product design
           <div class="row ">
               <div class="col-md-8 offset-md-2 text-center mb-15 ">
                   <h2 class="box-heading ">Latest News</h2>
-
-
-
-
-
               </div>
-
-
-
-
-
           </div>
-
-
-
-
-
           <div class="row ">
-
-
-
-
-
               <div class="col-md-6 blog-bg ">
-
-
-
-
-
                   <div class="blog-size ">
-
-
-
-
-
                       <h4 class="blog-title ">Typograph Ink & Water don't</h4>
-
-
-
-
-
                       <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has...</p>
-
-
-
-
-
                       <button type="button " class="btn btn-outline-dark g-button-2 ">Read More <i class="la la-long-arrow-right ml-3 mt-1 "></i></button>
-
-
-
-
-
                       <p> <span class="name-color ">Johan Deo</span> on April 14, 2018</p>
-
-
-
-
-
                   </div>
-
-
-
-
-
               </div>
-
-
-
-
-
               <div class="col-md-6 p-0 blog-thumbnail ">
-
-
-
-
-
                   <img src="./../assets/images/news-image-01.jpg " class="img-fluid " alt=" ">
-
-
-
-
-
               </div>
-
-
-
-
-
           </div>
-
-
-
-
-
           <div class="row ">
-
-
-
-
-
               <div class="col-md-6 p-0 blog-thumbnail ">
-
-
-
-
-
                   <img src="./../assets/images/news-image-02.jpg " class="img-fluid " alt=" ">
-
-
-
-
-
-              </div>
-
-
-
-
-
+</div>
               <div class="col-md-6 blog-bg ">
-
-
-
-
-
-                  <div class="blog-size ">
-
-
-
-
-
+                              <div class="blog-size ">
                       <h4 class="blog-title ">Typograph Ink & Water don't</h4>
-
-
-
-
-
                       <p>Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has...</p>
-
-
-
-
-
                       <button type="button " class="btn btn-outline-dark g-button-2 ">Read More <i class="la la-long-arrow-right ml-3 mt-1 "></i></button>
-
-
-
-
-
                       <p> <span class="name-color ">Johan Deo</span> on April 14, 2018</p>
-
-
-
-
-
                   </div>
-
-
-
-
-
               </div>
-
-
-
-
-
           </div>
-
-
-
-
-
       </div>
-
-
-
-
-
   </section>
 -->
 <!-- Contact -->
@@ -689,27 +536,27 @@ My services include product analysis, through to full product design
         </div>
         <div class="row ">
             <div class="col-md-6 bg-black ">
-                <form (ngSubmit)="onSubmit()">
+                <form (ngSubmit)="taskSubmit()">
                     <div class="form-row ">
                         <div class="form-group col-sm-6 ">
-                            <input type="text " name="name " id="name " class="form-control border-top-0 border-right-0 border-left-0 rounded-0 contact-inpt " placeholder="Your Name " />
+                            <input type="text" [(ngModel)]="name" name="name " id="name " class="form-control border-top-0 border-right-0 border-left-0 rounded-0 contact-inpt " placeholder="Your Name " />
                         </div>
 
                         <div class="form-group col-sm-6 ">
-                            <input type="text " name="phone " id="phone " class="form-control border-top-0 border-right-0 border-left-0 rounded-0 contact-inpt " placeholder="Your phone Number " />
+                            <input type="text" [(ngModel)]="phone" name="phone" id="phone " class="form-control border-top-0 border-right-0 border-left-0 rounded-0 contact-inpt " placeholder="Your phone Number " />
                         </div>
                     </div>
                     <div class="form-row form-block ">
                         <div class="form-group col-sm-6 ">
-                            <input type="text " id="subject " name="subject " class="form-control border-top-0 border-left-0 contact-inpt border-right-0 rounded-0 " placeholder="Your subject " />
+                            <input type="text " id="subject " [(ngModel)]="subject" name="subject " class="form-control border-top-0 border-left-0 contact-inpt border-right-0 rounded-0 " placeholder="Your subject " />
                         </div>
                         <div class="form-group col-sm-6 ">
-                            <input type="email " id="email " name="email " class="contact-inpt form-control border-top-0 border-left-0 border-right-0 rounded-0 " placeholder="Your Email " />
+                            <input type="email " id="email " name="email" [(ngModel)]="email" class="contact-inpt form-control border-top-0 border-left-0 border-right-0 rounded-0 " placeholder="Your Email " />
                         </div>
                     </div>
                     <div class="form-row form-block ">
                         <div class="form-group col-sm-12 mt-15 ">
-                            <textarea name="message " id="message " class="contact-inpt form-control border-top-0 border-left-0 border-right-0 rounded-0 " rows="6 " placeholder="Your Message "></textarea>
+                            <textarea name="message " id="message" [(ngModel)]="message" class="contact-inpt form-control border-top-0 border-left-0 border-right-0 rounded-0 " rows="6 " placeholder="Your Message "></textarea>
                         </div>
                     </div>
                     <div class="form-row ">

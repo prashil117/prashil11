@@ -1,6 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { User } from './app.comc';
+import { map } from 'rxjs/operators';
+
+
 
 @Injectable()
 export class UserService {
@@ -13,7 +16,22 @@ export class UserService {
 
   addUser(item:User) {
     
-      //  let body = JSON.stringify(item);
-        return this._http.post(this.url,item);
+
+ 
+      let body = JSON.stringify(item);
+      const httpOptions = {
+        headers: new HttpHeaders({
+          'Content-Type':  'application/json'
+        })
+      };
+   
+     let headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+       
+      //let options = new RequestOptions({ headers: headers });
+       
+       return this._http.post(this.url,body, httpOptions)
+       
+      .pipe(map((response:Response)=>response.json()));
+       
       }
     }
